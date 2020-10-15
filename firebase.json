@@ -12,9 +12,13 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [ {
-      "source": "app/**",
-      "function": "app"
-    } ]
+    "appAssociation": "AUTO",
+    "rewrites": [
+      {
+        "source": "app/**",
+        "function": "app"
+      },
+      {"source": "/exchange/**", "dynamicLinks": true}
+    ]
   }
 }

@@ -3,18 +3,23 @@
 Exchange rade push to App.
 Use Firebase Functions.
 
-## Configration files
-* /functions/config/sdk.json
-* /functions/config/application.yaml
+## Setup
 
-## Initialize
-```
-npm install -g firebase-tools
-firebase init
-npm install
-```
+1. Configuration files
+    ```
+    /functions/config/sdk.json
+    ```
+1. Initialize
+    ```
+    npm install -g firebase-tools
+    firebase login:cli
+    export FIREBASE_TOKEN={login token}
+    firebase init
+    ```
 
-## Deploy
-```
-num run deploy
-```
+## Operation
+* deploy
+    ```
+    cd functions/
+    num run deploy-hosting # or deploy-functions
+    ```
