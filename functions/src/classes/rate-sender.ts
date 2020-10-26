@@ -50,7 +50,7 @@ export class RateSender {
 
     public async send(pairCode: string): Promise<string> {
         const config = Util.config();
-        if (this._app == null) {
+        if (this._app === null) {
             this._app = admin.initializeApp({
                 credential: admin.credential.cert(require(`${Util.baseDir()}/config/sdk.json`)),
                 databaseURL: config['fb-databaseURL']

@@ -7,6 +7,7 @@ Use Firebase Functions.
 
 1. Configuration files
     ```
+    /functions/config/application.yaml
     /functions/config/sdk.json
     ```
 1. Initialize
