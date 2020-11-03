@@ -1,5 +1,5 @@
 import * as functions from 'firebase-functions';
-import {RateSender} from './classes/rate-sender';
+import RateSender from './classes/rate-sender';
 
 exports.send = functions.pubsub.schedule('0 10,18 * * mon,tue,wed,thu,fri')
     .timeZone('Asia/Tokyo')
@@ -7,7 +7,7 @@ exports.send = functions.pubsub.schedule('0 10,18 * * mon,tue,wed,thu,fri')
         const code = 'USDJPY';
         const sender: RateSender = new RateSender();
 
-        sender.send(code)
+        return sender.send(code)
             .then((result) => {
                 console.log(result);
             })

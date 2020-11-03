@@ -3,7 +3,7 @@ import url from "url";
 import https from "https";
 import admin from 'firebase-admin';
 
-export class RateSender {
+export default class RateSender {
 
     private _loaded: boolean = false;
     private _rate: { [index: string]: object } = {};
