@@ -1,6 +1,6 @@
-# Exchange rade sender
+# Exchange rate sender
 
-Exchange rade push to App.
+Exchange rate push to App.
 Use Firebase Functions.
 
 ## Setup
