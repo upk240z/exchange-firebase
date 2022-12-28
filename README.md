@@ -1,7 +1,8 @@
 # Exchange rate sender
 
-Exchange rate push to App.
-Use Firebase Functions.
+Exchange rate push to App.  
+Use Firebase Functions.  
+for Node 14
 
 ## Setup
 

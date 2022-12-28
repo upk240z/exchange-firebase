@@ -67,7 +67,6 @@ node_modules/
 
 .firebaserc
 /.idea
-package-lock.json
 /functions/lib
 /functions/config/sdk.json
 /functions/config/application.yaml
