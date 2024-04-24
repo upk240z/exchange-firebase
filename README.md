@@ -14,7 +14,7 @@ for Node 14
 1. Initialize
     ```
     npm install -g firebase-tools
-    firebase login:cli
+    firebase login:ci
     export FIREBASE_TOKEN={login token}
     firebase init
     ```
