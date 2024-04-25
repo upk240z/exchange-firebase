@@ -65,8 +65,5 @@ node_modules/
 # dotenv environment variables file
 .env
 
-.firebaserc
 /.idea
-/functions/lib
-/functions/config/sdk.json
-/functions/config/application.yaml
+/functions/config

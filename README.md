@@ -2,7 +2,7 @@
 
 Exchange rate push to App.  
 Use Firebase Functions.  
-for Node 14
+for node 20
 
 ## Setup
 
@@ -19,9 +19,10 @@ for Node 14
     firebase init
     ```
 
-## Operation
+## Operations
+
 * deploy
     ```
     cd functions/
-    num run deploy-hosting # or deploy-functions
+    npm run deploy-functions
     ```
