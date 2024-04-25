@@ -9,7 +9,7 @@ for node 20
 1. Configuration files
     ```
     /functions/config/application.yaml
-    /functions/config/sdk.json
+    /functions/config/sdk.yaml
     ```
 1. Initialize
     ```
